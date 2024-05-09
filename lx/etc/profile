@@ -78,7 +78,7 @@ if [ -n "${BASH_VERSION-}" ] ; then
 fi
 
 # security
-export TMOUT=300
+export TMOUT=1800
 HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S [CMD]:"
 
 # java
