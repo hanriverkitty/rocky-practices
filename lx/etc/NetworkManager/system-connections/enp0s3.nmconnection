@@ -1,0 +1,21 @@
+[connection]
+id=enp0s3
+uuid=3c9463a4-30bc-33a2-8d80-cb0db354fe8b
+type=ethernet
+autoconnect-priority=-999
+interface-name=enp0s3
+timestamp=1715056488
+
+[ethernet]
+
+[ipv4]
+method=manual
+address=192.168.0.197/24, 192.168.0.1
+dns=168.126.63.1
+may-fail=false
+
+[ipv6]
+addr-gen-mode=eui64
+method=auto
+
+[proxy]
